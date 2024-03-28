@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package rocket;
 
-option go_package = "./.";
+option go_package = "./rocket";
 
 message Rocket {
   string id = 1;
